@@ -7,6 +7,8 @@ Link: https://shamima-prompt-generation.hf.space/
 Architecture diagram:
 ![image](ss/architecture_diagram.png)
 
+Since the final deployed model is very large to download and upload I have publicly hosted 
+the finetuned DistilBert-Roberta model on huggingface Hub here https://huggingface.co/Shamima/diffusion_prompt
 
 ### Step 1: Data ETL and deployment on Sagemaker
 
