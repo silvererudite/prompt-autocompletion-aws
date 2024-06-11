@@ -1,0 +1,49 @@
+Test Event Name
+test-diffusion-prompt
+
+Response
+[
+  {
+    "score": 0.05195751413702965,
+    "token": 24255,
+    "token_str": " bloom",
+    "sequence": "A butterfly in bloom"
+  },
+  {
+    "score": 0.032018765807151794,
+    "token": 37156,
+    "token_str": " amber",
+    "sequence": "A butterfly in amber"
+  },
+  {
+    "score": 0.01816556416451931,
+    "token": 2440,
+    "token_str": " blue",
+    "sequence": "A butterfly in blue"
+  },
+  {
+    "score": 0.016529938206076622,
+    "token": 33545,
+    "token_str": " Madagascar",
+    "sequence": "A butterfly in Madagascar"
+  },
+  {
+    "score": 0.014265906065702438,
+    "token": 10,
+    "token_str": " a",
+    "sequence": "A butterfly in a"
+  }
+]
+
+Function Logs
+START RequestId: e1ad0529-1515-4151-9472-e93df380c654 Version: $LATEST
+Received event: {
+"inputs": "A butterfly in <mask>"
+}
+{"inputs": "A butterfly in <mask>"}
+{'ResponseMetadata': {'RequestId': '1bdb36f0-ad6f-489a-bade-fdee80362bcc', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': '1bdb36f0-ad6f-489a-bade-fdee80362bcc', 'x-amzn-invoked-production-variant': 'AllTraffic', 'date': 'Mon, 10 Jun 2024 06:51:39 GMT', 'content-type': 'application/json', 'content-length': '495', 'connection': 'keep-alive'}, 'RetryAttempts': 0}, 'ContentType': 'application/json', 'InvokedProductionVariant': 'AllTraffic', 'Body': <botocore.response.StreamingBody object at 0x7fdbf5d99510>}
+END RequestId: e1ad0529-1515-4151-9472-e93df380c654
+REPORT RequestId: e1ad0529-1515-4151-9472-e93df380c654	Duration: 326.05 ms	Billed Duration: 327 ms	Memory Size: 128 MB	Max Memory Used: 70 MB	Init Duration: 355.91 ms
+
+Request ID
+e1ad0529-1515-4151-9472-e93df380c654
